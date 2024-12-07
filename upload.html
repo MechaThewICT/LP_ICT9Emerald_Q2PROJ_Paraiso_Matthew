@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Website Icon -->
+    <link rel="icon" type="image/png" href="Logo-食事.png">
+    <!-- External CSS Link -->
+    <link type="text/css" rel="stylesheet" href="upload.css">
+    <!-- CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Icon Script -->
+    <script src="https://kit.fontawesome.com/cff233e398.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Potta+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+
+  <nav class="navbar navbar-expand-sm bg-danger text-white navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Logo-食事.png" width="60px" style="margin-left: 30px;"> </a>
+
+        <div class="collapse navbar-collapse">
+
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"> <a class="nav-link" href="upload.html">Upload</a></li>
+        </ul>
+
+        <form class="d-flex" style="margin-right: 30px;">
+            <span style="margin-right: 12px;"><input class="form-control" type="text" placeholder="Search..."></span>
+            <button class="btn btn-success" type="button">Search</button>
+        </form>
+    </div>
+  </nav>
+
+  <div class="container p-3 mt-5 bg-danger rounded form-length">
+    <form>
+        <label style="font-family: Potta;">Name of the Cuisine</label>
+    <input required type="text" class="form-control" id="user" placeholder="type here">
+<br>
+    <label style="font-family: Potta;">Owner of the Recipe</label>
+    <input required type="text" class="form-control" rows="5" id="comment" placeholder="type here">
+
+    <label style="font-family: Potta;">Ingredients</label>
+    <input required type="text" class="form-control" rows="5" id="comment" placeholder="type here">
+
+    <label style="font-family: Potta;">Instructions</label>
+    <input required type="text" class="form-control" rows="5" id="comment" placeholder="type here">
+<br>
+    <div class="form-check-inline">
+        <h6 style="font-family: Potta;">Type of Food</h6>
+        <span style="font-family: Noto-Medium;">
+        <label class="form-check-label"> <input type="radio" class="form-check-input" name="optraido"> Snack</label><br>
+        <label class="form-check-label"> <input type="radio" class="form-check-input" name="optraido"> Breakfast</label><br>
+        <label class="form-check-label"> <input type="radio" class="form-check-input" name="optraido"> Lunch</label><br>
+        <label class="form-check-label"> <input type="radio" class="form-check-input" name="optraido"> Diner</label>
+        </span>
+    </div>
+    <br><br>
+
+    <div class="form-group">
+        <select style="font-family: Potta;" class="form-control" id="sel1">
+            <option>Cuisine Type</option>
+            <option>Traditional</option>
+            <option>Fusion</option>
+            <option>Modern</option>
+        </select>
+    </div>
+<br>
+    <div class="form-check-inline">
+        <h6 style="font-family: Potta;">Agree to the terms of post?</h6>
+        <label class="form-check-label"> <input type="checkbox" class="form-check-input" value="yes" required> <span style="font-family: Noto-Medium;">  Yes I agree </span></label>
+    </div>
+<br> <br>
+    <button style="font-family: Potta;" type="submit" class="btn btn-sm btn-secondary">Submit</button>
+    <div class="alert alert-access">
+        You have successfully posted your ingredient!
+    </div>
+    </form>
+</div>
+
+  </body>
+  </html>

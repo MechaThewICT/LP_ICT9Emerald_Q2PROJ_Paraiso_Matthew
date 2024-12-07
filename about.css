@@ -1,0 +1,46 @@
+/* General Settings */
+
+body{
+    height: 230vh;
+}
+
+*{
+    text-decoration: none;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: Noto-Regular;
+    src: url(NotoSerifJP-Regular.ttf);
+}
+
+@font-face {
+    font-family: Noto-Bold;
+    src: url(NotoSerifJP-Bold.ttf);
+}
+
+@font-face {
+    font-family: Noto-Medium;
+    src: url(NotoSerifJP-Medium.ttf);
+}
+
+@font-face {
+    font-family: Noto-Light;
+    src: url(NotoSerifJP-Light.ttf);
+}
+
+@font-face {
+    font-family: Potta;
+    src: url(PottaOne-Regular.ttf);
+}
+
+/* Navbar Settings */
+
+nav{
+    font-family: Noto-Bold;
+}
+
+.second-section{
+    font-family: Noto-Regular;
+}

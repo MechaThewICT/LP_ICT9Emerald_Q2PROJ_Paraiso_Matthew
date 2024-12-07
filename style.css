@@ -1,0 +1,75 @@
+/* General Settings */
+
+body{
+    height: 288vh;
+}
+
+*{
+    text-decoration: none;
+}
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: Noto-Regular;
+    src: url(NotoSerifJP-Regular.ttf);
+}
+
+@font-face {
+    font-family: Noto-Bold;
+    src: url(NotoSerifJP-Bold.ttf);
+}
+
+@font-face {
+    font-family: Noto-Medium;
+    src: url(NotoSerifJP-Medium.ttf);
+}
+
+@font-face {
+    font-family: Potta;
+    src: url(PottaOne-Regular.ttf);
+}
+
+
+/* Bootstrap CSS Addons */
+
+.bg-light-red{
+    background-color: rgb(255, 113, 113);
+}
+
+.container-bordered{
+    border: 6px solid rgb(93, 23, 8);
+    border-left: 0px;
+    border-right: 0px;
+    border-style: double;
+}
+
+.container-bordered-2{
+    border: 6px solid rgb(93, 23, 8);
+    border-style: double;
+}
+
+.upload-rec a{
+    border-radius: 50px;
+}
+
+.carousel-small{
+    width: 48%;
+}
+
+.credits a{
+    color: #323368;
+    text-decoration: none;
+}
+
+/* Navbar Settings */
+
+nav{
+    font-family: Noto-Bold;
+}
+
+.second-section{
+    font-family: Noto-Regular;
+}
